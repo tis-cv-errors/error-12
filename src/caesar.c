@@ -19,7 +19,7 @@ int absolute_int(int x)
     return abs_x;
 }
 
-char *caesar_encrypt(char *str, int shift)
+char *caesar_encrpt(char *str, int shift)
 {
     int abs_shift = absolute_int(shift);
     int i = 0;
